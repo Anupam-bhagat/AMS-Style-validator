@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui"
+          onLoad="Ribbon_Load">
+	<ribbon>
+		<tabs>
+			<tab id="tabAMSStyle" label="AMS Style">
+				<group id="grpAMSStyle" label="AMS Checkers">
+
+					<button id="btnReferences"
+							label="Reference Reordering"
+							size="large"
+							imageMso="SpellingAndGrammar"
+							onAction="OnReferenceReordering"
+							screentip="Reference Reordering"
+							supertip="Checks if references are in correct AMS alphabetical order."/>
+
+					<button id="btnParatext"
+							label="Paratext Checker"
+							size="large"
+							imageMso="ErrorChecking"
+							onAction="OnParatextChecker"
+							screentip="Paratext Checker"
+							supertip="Validates figure captions, table titles and callouts against AMS rules."/>
+
+					<button id="btnHeading"
+							label="Heading Anatomy"
+							size="large"
+							imageMso="HeaderFooterInsert"
+							onAction="OnHeadingAnatomy"
+							screentip="Heading Anatomy Checker"
+							supertip="Checks heading levels, order and formatting against AMS rules."/>
+
+					<button id="btnCasing"
+							label="Casing Error Checker"
+							size="large"
+							imageMso="ChangeCase"
+							onAction="OnCasingChecker"
+							screentip="Casing Error Checker"
+							supertip="Detects Title Case errors in headings. AMS requires sentence case."/>
+
+					<button id="btnRefFormat"
+							label="Reference Format"
+							size="large"
+							imageMso="FormatPainter"
+							onAction="OnReferenceFormat"
+							screentip="Reference Format Checker"
+							supertip="Checks journal names, issue numbers, DOI format and commas after titles."/>
+
+					<button id="btnFigTableCitation"
+							label="Fig/Table Citation"
+							size="large"
+							imageMso="CaptionInsert"
+							onAction="OnFigTableCitation"
+							screentip="Figure and Table Citation Checker"
+							supertip="Checks figure and table citations against AMS rules."/>
+
+					<button id="btnRefPunctuation"
+							label="Reference Punctuation"
+							size="large"
+							imageMso="ZoomDialog"
+							onAction="OnReferencePunctuation"
+							screentip="Reference Punctuation Checker"
+							supertip="Checks punctuation in references."/>
+
+					<button id="btnCitationChecker"
+							label="Citation Checker"
+							size="large"
+							imageMso="MacroRecord"
+							onAction="OnCitationChecker"
+							screentip="Citation Checker"
+							supertip="Checks in-text citations against AMS rules."/>
+
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
