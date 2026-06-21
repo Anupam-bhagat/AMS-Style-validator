@@ -1,0 +1,1 @@
+AMS Style Add-in for Microsoft Word to automate manuscript editing, formatting checks, casing validation, variable detection, and style compliance for American Meteorological Society (AMS) journal submissions. Designed to improve editing accuracy, consistency, and workflow efficiency for research manuscripts.
